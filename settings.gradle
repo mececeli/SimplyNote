@@ -1,0 +1,2 @@
+rootProject.name = "SimplyNote"
+include ':app'
