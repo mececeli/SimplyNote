@@ -21,7 +21,8 @@
             android:id="@+id/mainFragment_toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/teal_200"
+            android:layout_margin="8dp"
+            android:background="@drawable/toolbar_round_corners"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
@@ -34,7 +35,7 @@
                     android:id="@+id/toolbar_header_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="New Toolbar"
+                    android:text="Simply Note"
                     android:textColor="@color/white"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -44,42 +45,32 @@
                     android:id="@+id/toolbar_header_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="16dp"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/button_round_corners"
                     android:text="Add Note"
                     android:textAlignment="center"
                     android:textAllCaps="false"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </androidx.appcompat.widget.Toolbar>
 
-        <TextView
-            android:id="@+id/message"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Main Fragment"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/mainFragment_toolbar"
-            app:layout_constraintVertical_bias="0.044" />
-
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/note_recycler_view"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:layout_marginTop="16dp"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/message"
-            app:layout_constraintVertical_bias="0" />
+            app:layout_constraintTop_toBottomOf="@id/mainFragment_toolbar"
+            app:layout_constraintVertical_bias="0"
+            tools:listitem="@layout/notes_layout" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-
 </layout>

@@ -53,6 +53,62 @@ class MainFragment : Fragment() {
                 id = 2,
                 details = "Second Note Details",
                 title = "Second Note Title"
+            ), Note(
+                id = 2,
+                details = "Second Note Details",
+                title = "Second Note Title"
+            ), Note(
+                id = 2,
+                details = "Second Note Details",
+                title = "Second Note Title"
+            ), Note(
+                id = 2,
+                details = "Second Note Details",
+                title = "Second Note Title"
+            ), Note(
+                id = 2,
+                details = "Second Note Details",
+                title = "Second Note Title"
+            ), Note(
+                id = 2,
+                details = "Second Note Details",
+                title = "Second Note Title"
+            ), Note(
+                id = 2,
+                details = "Second Note Details",
+                title = "Second Note Title"
+            ), Note(
+                id = 2,
+                details = "Second Note Details",
+                title = "Second Note Title"
+            ), Note(
+                id = 2,
+                details = "Second Note Details",
+                title = "Second Note Title"
+            ), Note(
+                id = 2,
+                details = "Second Note Details",
+                title = "Second Note Title"
+            ), Note(
+                id = 2,
+                details = "Second Note Details",
+                title = "Second Note Title"
+            ), Note(
+                id = 2,
+                details = "Second Note Details",
+                title = "Second Note Title"
+            ), Note(
+                id = 2,
+                details = "Second Note Details",
+                title = "Second Note Title"
+            ), Note(
+                id = 2,
+                details = "Second Note Details",
+                title = "Second Note Title"
+            ), Note(
+                id = 2,
+                details = "Second Note Details",
+                title = "Second Note Title"
             )
         )
 
